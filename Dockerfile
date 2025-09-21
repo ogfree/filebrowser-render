@@ -11,7 +11,7 @@ EXPOSE 8080
 CMD ["/bin/sh", "-c", "\
   if [ ! -f /filebrowser.db ]; then \
     /filebrowser --database /filebrowser.db config init && \
-    /filebrowser --database /filebrowser.db users add ${FB_USERNAME:-admin} ${FB_PASSWORD:-admin} --perm.admin; \
+    /filebrowser --database /filebrowser.db users add ${FB_USERNAME:-admin} ${FB_PASSWORD:-admin1234567890} --perm.admin; \
   fi && \
   exec /filebrowser --database /filebrowser.db --address 0.0.0.0 --port 8080 --root / \
 "]
