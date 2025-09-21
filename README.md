@@ -30,45 +30,20 @@ This Dockerized setup lets you run **Filebrowser**, the ultra-flexible file mana
 
 ## 🚀 Quick Start
 
-1. **Clone this repo**
+You can replace that section with a **“Deploy to Render” button** that lets users click and start deploying directly. Render supports this using a URL with your GitHub repo. Here’s how your updated section could look:
 
-```bash
-git clone https://github.com/yourusername/filebrowser-render.git
-cd filebrowser-render
-```
+---
 
-2. **Build your Docker image**
+## 🚀 Quick Start
 
-```bash
-docker build -t filebrowser-render .
-```
+ **Deploy to Render.com**
 
-3. **Run it locally**
+Click the button below to deploy this project directly to Render:
 
-```bash
-docker run -p 8080:8080 \
-  -e FB_USERNAME=yourname \
-  -e FB_PASSWORD=supersecret \
-  filebrowser-render
-```
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/new/web?repo=[https://github.com/yourusername/filebrowser-render](https://github.com/ogfree/filebrowser-render/tree/main))
 
-4. **Deploy to Render.com**
+> After clicking, you can set your environment variables (`FB_USERNAME` and `FB_PASSWORD`) in Render’s dashboard and launch the service. Your file manager will be live on Render! 🌈
 
-* Create a **Web Service** on Render.
-* Connect your GitHub repo.
-* Set the build command as:
-
-```bash
-docker build -t filebrowser-render .
-```
-
-* Set the start command as:
-
-```bash
-/bin/sh -c "/filebrowser --database /filebrowser.db --address 0.0.0.0 --port 8080 --root /"
-```
-
-* Voilà! Your file manager is live in the cloud 🌈
 
 ---
 
