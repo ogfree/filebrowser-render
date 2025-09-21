@@ -124,6 +124,4 @@ MIT License – Do whatever you want, just don’t break the internet. 😉
 
 > **Pro Tip**: Use this setup to turn any small server or Render free tier into your personal cloud paradise. 🌈
 
----
 
-to do that next?
