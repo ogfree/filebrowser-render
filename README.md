@@ -22,7 +22,7 @@ This Dockerized setup lets you run **Filebrowser**, the ultra-flexible file mana
 * **Totally Configurable**: Customize credentials with environment variables:
 
   * `FB_USERNAME` – default: `admin`
-  * `FB_PASSWORD` – default: `admin`
+  * `FB_PASSWORD` – default: `admin1234567890`
 * **Port Ready**: Runs smoothly on **port 8080**, accessible from anywhere.
 * **Containerized**: All-in-one Dockerfile – just build, deploy, and go!
 
