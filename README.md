@@ -40,7 +40,7 @@ You can replace that section with a **“Deploy to Render” button** that lets 
 
 Click the button below to deploy this project directly to Render:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/new/web?repo=[https://github.com/yourusername/filebrowser-render](https://github.com/ogfree/filebrowser-render/tree/main))
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/new/web?repo=[https://github.com/ogfree/filebrowser-render/tree/main](https://github.com/ogfree/filebrowser-render/tree/main))
 
 > After clicking, you can set your environment variables (`FB_USERNAME` and `FB_PASSWORD`) in Render’s dashboard and launch the service. Your file manager will be live on Render! 🌈
 
