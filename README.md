@@ -36,14 +36,16 @@ You can replace that section with a **“Deploy to Render” button** that lets 
 
 ## 🚀 Quick Start
 
- **Deploy to Render.com**
 
-Click the button below to deploy this project directly to Render:
+Click the **"Deploy to Render"** button below, then **paste this repository URL** into the Render deployment field:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/new/web?repo=https://github.com/ogfree/filebrowser-render)
+```
+https://github.com/ogfree/filebrowser-render
+```
 
-> After clicking, you can set your environment variables (`FB_USERNAME` and `FB_PASSWORD`) in Render’s dashboard and launch the service. Your file manager will be live on Render! 🌈
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/web/new)
 
+> After pasting the repo URL, you can configure your **environment variables** (`FB_USERNAME` and `FB_PASSWORD`) and Render will deploy your file manager in the cloud 🌈
 
 ---
 
