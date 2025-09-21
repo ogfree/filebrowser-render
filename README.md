@@ -90,7 +90,7 @@ CMD ["/bin/sh", "-c", "\
 | Variable      | Default | Description    |
 | ------------- | ------- | -------------- |
 | `FB_USERNAME` | `admin` | Admin username |
-| `FB_PASSWORD` | `admin` | Admin password |
+| `FB_PASSWORD` | `admin1234567890` | Admin password |
 
 ---
 
